@@ -16,10 +16,10 @@ let dbPool;
 // check 1
 async function initializeDb() {
   dbPool = mysql.createPool({
-    host: '34.162.85.171',
-    user: 'cloudfinal',
-    password: 'Sairaviteja@145',
-    database: 'mysql',
+    host: '34.70.175.112',
+    user: 'krogerretail',
+    password: 'Retail1*',
+    database: 'krogerdata',
     waitForConnections: true,
     connectionLimit: 10,
     queueLimit: 0,
